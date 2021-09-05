@@ -1,0 +1,230 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        
+}
+html ,header {
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+#page1{
+    height: 107vh;
+    background: url(/img/iphone_12_page1.jpg) no-repeat center center/cover ;
+   } 
+.nav ul {
+    line-height: 44px;
+    color: #86868b;
+    font-Weight :400;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    list-style: none; 
+    cursor: pointer;
+    font-size: 14px;
+   
+}
+
+.box:hover {
+    color:white;
+}
+
+ .nav ul li .box{
+     top:0;
+    position:sticky;
+ }
+
+.message{
+    
+    background:#f5f5f7 ;
+    size: 14px;
+    line-height: 21px;
+    width: 400;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0;
+    
+}
+.message a{
+    
+    text-decoration: none;
+    color: #257bd2;
+}
+.message a:hover{
+    text-decoration:underline;
+}
+
+.page-container{
+    
+    left: 0;
+    width: 100%;
+    z-index:3;
+
+}
+.iphone12{
+  
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 47px;
+    color: #1d1d1f;
+    font-size: 50px;
+    font-weight: 700;
+}
+ .iphone12 p{
+    font-size: 25px;
+    font-weight: 400;
+ }
+
+ .message1{
+     color:#86868b ;
+     font-size: 17px;
+     font-weight: 50;
+     line-height: 30px;
+     margin-top: 5px;
+ }
+ .links a{
+     font-size: 17px;
+     text-decoration: none;
+     color:#257bd2;
+    
+ }
+ .learnmore{
+     padding-left: 10px;
+ }
+ .links a:hover{
+     text-decoration: underline;
+ }
+#page2{ 
+    margin-top: 10px;
+  height: 107vh;
+  background: url(/img/iphone_12_pro_page2.jpg) no-repeat center center/cover ;
+
+}
+.iphone12pro{
+  
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 47px;
+    color:#f5f5f7 ;
+    font-size: 50px;
+    font-weight: 700;
+}
+.iphone12pro p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#page3{
+  margin-top: 10px;
+  height: 100vh;
+  text-align: center;
+
+
+}
+#myVideo {
+   width: 100%;
+  
+}
+.tv-logo{
+    background-image: url(/img/tvplus_logo_.png);
+    background-repeat: no-repeat;
+    z-index:3;
+    
+}
+.tv-logo{
+    background-image: url(/img/see_logo_.png);
+    background-repeat: no-repeat;
+    z-index:3;
+    margin-top: 10px;  
+}
+
+
+
+
+#page4{
+  margin-top: 10px;
+  height: 90vh; 
+}
+
+.gridsections{
+    display: grid;
+    grid-template-columns: repeat(2, 110vh);
+    grid-template-rows: repeat(3, 20vw);
+    grid-column-gap:5px;
+    grid-row-gap:5px;
+    margin-top: 225px;
+    
+}
+
+.gridDiv{
+   margin-left: 10px;
+}
+.item1{
+    width:100%;
+    grid-column: 1;
+    grid-row: 1;
+    background: url(../img/promo_ipad_pro_page4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+   
+}
+ .item1 a{
+     text-align: center;
+     display: flex;
+    place-items: center;
+    color:#f5f5f7 ;
+}
+
+
+.learnmore{
+    padding-left: 10px;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.item2{
+    width:100%;
+    grid-column: 2;
+    grid-row: 1;
+    background: url(../img/promo_watch_page4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item3{
+    width:100%;
+    grid-column: 1;
+    grid-row: 2;
+    background: url(../img/tile__cauwwcyyn9hy_page5.jpg);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+.item4{
+    width:100%;
+    grid-column: 2;
+    grid-row: 2;
+    background: url(../img/promo_bts__page5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.item5{
+    width:100%;
+    grid-column: 1;
+    grid-row: 3;
+    background: url(../img/tile_appstore_image__page6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.item6{
+    width:100%;
+    grid-column: 2;
+    grid-row: 3;
+    background: url(../img/tile_racial_equity_page6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
